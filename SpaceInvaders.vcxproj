@@ -137,7 +137,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BitmapStore.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="DevelopState.h" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="SoundEngine.cpp" />
+    <ClCompile Include="SoundEngine.h" />
     <ClCompile Include="SpaceInvaders.cpp" />
+    <ClCompile Include="UIPanel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BitmapStore.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="ScreenManagerRemoteControl.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="UIPanel.h" />
+    <ClInclude Include="WorldState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

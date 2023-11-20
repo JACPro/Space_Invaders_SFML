@@ -1,6 +1,8 @@
-#include <iostream>
+#include "GameEngine.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    GameEngine m_GameEngine;
+    m_GameEngine.run();
+    return 0;
 }
