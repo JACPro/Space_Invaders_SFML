@@ -1,2 +1,14 @@
-﻿  SpaceInvaders.cpp
+﻿  Button.cpp
+C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\Button.cpp(14,39): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  SelectUIPanel.cpp
+C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(10,9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(9,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(13,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(14,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(15,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(34,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(33,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(42,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(41,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
   SpaceInvaders.vcxproj -> C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\x64\Debug\SpaceInvaders.exe

@@ -24,9 +24,7 @@ void UIPanel::addButton(float x, float y, int width, int height,
 	int red, int green, int blue, string label)
 {
 	m_Buttons.push_back(make_shared<Button>(sf::Vector2f(x, y),
-		width, height,
-		red, green, blue,
-		label));
+		width, height, red, green, blue, label));
 }
 
 void UIPanel::draw(sf::RenderWindow& window)

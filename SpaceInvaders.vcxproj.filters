@@ -84,6 +84,30 @@
     <ClCompile Include="Screen.cpp">
       <Filter>Source Files\Screens</Filter>
     </ClCompile>
+    <ClCompile Include="SelectScreen.cpp">
+      <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectInputHandler.cpp">
+      <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectUIPanel.cpp">
+      <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInputHandler.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUIPanel.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverInputHandler.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverUIPanel.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameEngine.h">
@@ -112,6 +136,30 @@
     </ClInclude>
     <ClInclude Include="WorldState.h">
       <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScreen.h">
+      <Filter>Header Files\Screens\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectInputHandler.h">
+      <Filter>Header Files\Screens\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectUIPanel.h">
+      <Filter>Header Files\Screens\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInputHandler.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUIPanel.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverInputHandler.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverUIPanel.h">
+      <Filter>Header Files\Screens\Game</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
