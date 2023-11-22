@@ -161,5 +161,8 @@
     <ClInclude Include="GameOverUIPanel.h">
       <Filter>Header Files\Screens\Game</Filter>
     </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

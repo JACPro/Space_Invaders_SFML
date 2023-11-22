@@ -160,6 +160,7 @@
   <ItemGroup>
     <ClInclude Include="BitmapStore.h" />
     <ClInclude Include="Button.h" />
+    <ClInclude Include="Component.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="GameInputHandler.h" />
     <ClInclude Include="GameOverInputHandler.h" />

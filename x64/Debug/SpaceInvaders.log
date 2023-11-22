@@ -1,14 +1,102 @@
-﻿  Button.cpp
-C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\Button.cpp(14,39): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+﻿  BitmapStore.cpp
+  Button.cpp
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\Button.cpp(14,39): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  DevelopState.h
+  GameEngine.cpp
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameEngine.cpp(5,50): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameEngine.cpp(6,50): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameEngine.cpp(9,45): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameEngine.cpp(9,29): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameEngine.cpp(14,105): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameEngine.cpp(14,89): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  GameInputHandler.cpp
+  GameOverInputHandler.cpp
+  GameOverUIPanel.cpp
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameOverUIPanel.cpp(11,9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameOverUIPanel.cpp(10,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameOverUIPanel.cpp(8,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameOverUIPanel.cpp(14,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameOverUIPanel.cpp(15,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameOverUIPanel.cpp(16,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameOverUIPanel.cpp(33,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameOverUIPanel.cpp(32,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameOverUIPanel.cpp(41,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameOverUIPanel.cpp(40,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  GameScreen.cpp
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameScreen.cpp(21,20): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameScreen.cpp(22,53): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameScreen.cpp(23,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameScreen.cpp(24,86): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  GameUIPanel.cpp
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameUIPanel.cpp(14,9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\GameUIPanel.cpp(13,9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  InputHandler.cpp
+  ScreenManager.cpp
+  Screen.cpp
+  SelectInputHandler.cpp
+  SelectScreen.cpp
   SelectUIPanel.cpp
-C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(10,9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(9,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(13,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(14,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(15,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(34,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(33,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(42,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\SelectUIPanel.cpp(41,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\SelectUIPanel.cpp(10,9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\SelectUIPanel.cpp(9,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\SelectUIPanel.cpp(13,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\SelectUIPanel.cpp(14,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\SelectUIPanel.cpp(15,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\SelectUIPanel.cpp(34,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\SelectUIPanel.cpp(33,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\SelectUIPanel.cpp(42,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\SelectUIPanel.cpp(41,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  SoundEngine.cpp
+  SoundEngine.h
+  SpaceInvaders.cpp
+  UIPanel.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(254,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(2104,18): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,sf::Vector2<float>,int&,int&,int&,int&,int&,std::string&>(_Ty &,sf::Vector2<float> &&,int &,int &,int &,int &,int &,std::string &) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Button
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(2779,46): message : see reference to function template instantiation 'std::_Ref_count_obj2<Button>::_Ref_count_obj2<_Ty,int&,int&,int&,int&,int&,std::string&>(_Ty &&,int &,int &,int &,int &,int &,std::string &)' being compiled
+          with
+          [
+              _Ty=sf::Vector2f
+          ]
+C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\UIPanel.cpp(26,22): message : see reference to function template instantiation 'std::shared_ptr<Button> std::make_shared<Button,sf::Vector2f,int&,int&,int&,int&,int&,std::string&>(sf::Vector2f &&,int &,int &,int &,int &,int &,std::string &)' being compiled
   Generating Code...
-  SpaceInvaders.vcxproj -> C:\Users\hepta\Documents\CPP\SFML Projects\Space_Invaders_SFML\x64\Debug\SpaceInvaders.exe
+x64\Debug\SoundEngine.obj : warning LNK4042: object specified more than once; extras ignored
+  SpaceInvaders.vcxproj -> C:\Users\hepta\OneDrive\Documents\CPP\SFML\SpaceInvaders\x64\Debug\SpaceInvaders.exe
