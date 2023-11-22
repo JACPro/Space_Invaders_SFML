@@ -147,6 +147,7 @@
     <ClCompile Include="GameScreen.cpp" />
     <ClCompile Include="GameUIPanel.cpp" />
     <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="RectColliderComponent.cpp" />
     <ClCompile Include="ScreenManager.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="SelectInputHandler.cpp" />
@@ -155,11 +156,15 @@
     <ClCompile Include="SoundEngine.cpp" />
     <ClCompile Include="SoundEngine.h" />
     <ClCompile Include="SpaceInvaders.cpp" />
+    <ClCompile Include="StandardGraphicsComponent.cpp" />
+    <ClCompile Include="StandardGraphicsComponent.h" />
+    <ClCompile Include="TransformComponent.cpp" />
     <ClCompile Include="UIPanel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BitmapStore.h" />
     <ClInclude Include="Button.h" />
+    <ClInclude Include="ColliderComponent.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="GameInputHandler.h" />
@@ -167,13 +172,16 @@
     <ClInclude Include="GameOverUIPanel.h" />
     <ClInclude Include="GameScreen.h" />
     <ClInclude Include="GameUIPanel.h" />
+    <ClInclude Include="GraphicsComponent.h" />
     <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="RectColliderComponent.h" />
     <ClInclude Include="ScreenManager.h" />
     <ClInclude Include="ScreenManagerRemoteControl.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="SelectInputHandler.h" />
     <ClInclude Include="SelectScreen.h" />
     <ClInclude Include="SelectUIPanel.h" />
+    <ClInclude Include="TransformComponent.h" />
     <ClInclude Include="UIPanel.h" />
     <ClInclude Include="WorldState.h" />
   </ItemGroup>
