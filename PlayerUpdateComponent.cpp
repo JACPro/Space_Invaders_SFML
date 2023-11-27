@@ -1,5 +1,6 @@
 #include "PlayerUpdateComponent.h"
 #include "WorldState.h"
+
 void PlayerUpdateComponent::update(float fps)
 {
 	if (sf::Joystick::isConnected(0))
