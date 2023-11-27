@@ -138,6 +138,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BitmapStore.cpp" />
+    <ClCompile Include="BulletUpdateComponent.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="DevelopState.h" />
     <ClCompile Include="GameEngine.cpp" />
@@ -147,6 +148,8 @@
     <ClCompile Include="GameScreen.cpp" />
     <ClCompile Include="GameUIPanel.cpp" />
     <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="InvaderUpdateComponent.cpp" />
+    <ClCompile Include="PlayerUpdateComponent.cpp" />
     <ClCompile Include="RectColliderComponent.cpp" />
     <ClCompile Include="ScreenManager.cpp" />
     <ClCompile Include="Screen.cpp" />
@@ -163,6 +166,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BitmapStore.h" />
+    <ClInclude Include="BulletUpdateComponent.h" />
     <ClInclude Include="Button.h" />
     <ClInclude Include="ColliderComponent.h" />
     <ClInclude Include="Component.h" />
@@ -174,6 +178,8 @@
     <ClInclude Include="GameUIPanel.h" />
     <ClInclude Include="GraphicsComponent.h" />
     <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="InvaderUpdateComponent.h" />
+    <ClInclude Include="PlayerUpdateComponent.h" />
     <ClInclude Include="RectColliderComponent.h" />
     <ClInclude Include="ScreenManager.h" />
     <ClInclude Include="ScreenManagerRemoteControl.h" />
@@ -183,6 +189,7 @@
     <ClInclude Include="SelectUIPanel.h" />
     <ClInclude Include="TransformComponent.h" />
     <ClInclude Include="UIPanel.h" />
+    <ClInclude Include="UpdateComponent.h" />
     <ClInclude Include="WorldState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,8 +1,6 @@
 #include "BitmapStore.h"
 #include <assert.h>
 
-using namespace std;
-
 BitmapStore* BitmapStore::m_s_Instance = nullptr;
 
 BitmapStore::BitmapStore()

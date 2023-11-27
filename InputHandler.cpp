@@ -1,11 +1,9 @@
 #include <sstream>
 #include "InputHandler.h"
 
-using namespace std;
-
 void InputHandler::initialiseInputHandler(
 	ScreenManagerRemoteControl* sw,
-	vector<shared_ptr<Button>> buttons,
+	std::vector<shared_ptr<Button>> buttons,
 	sf::View* pointerToUIView,
 	Screen* parentScreen)
 {

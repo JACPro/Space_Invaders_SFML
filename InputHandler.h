@@ -6,8 +6,6 @@
 #include "Screen.h"
 #include "ScreenManagerRemoteControl.h"
 
-using namespace std;
-
 class Screen; //TODO - can we remove this forward declaration as we are including Screen.h ??? I guess not bc circular include???
 
 class InputHandler
@@ -21,14 +19,14 @@ private:
 public:
 	void initialiseInputHandler(
 		ScreenManagerRemoteControl* sw,
-		vector<shared_ptr<Button>>,
+		std::vector<shared_ptr<Button>>,
 		sf::View* pointerToUIView,
 		Screen* parentScreen);
 	void handleInput(sf::RenderWindow& window, sf::Event& event);
 	virtual void handleGamepad();
 	virtual void handleKeyPressed(sf::Event& event, sf::RenderWindow& window);
 	virtual void handleKeyReleased(sf::Event& event, sf::RenderWindow& window);
-	virtual void handleLeftClick(string& buttonInteractedWith, sf::RenderWindow& window);
+	virtual void handleLeftClick(std::string& buttonInteractedWith, sf::RenderWindow& window);
 	sf::View* getPointerToUIView();
 	ScreenManagerRemoteControl* getPointerToScreenManagerRemoteControl();
 	Screen* getmParentScreen();

@@ -9,15 +9,13 @@
 #include "BitmapStore.h"
 #include <iostream>
 
-using namespace std;
-
 class ScreenManager : public ScreenManagerRemoteControl 
 {
 private:
-	map <string, unique_ptr<Screen>> m_Screens;
+	map <std::string, std::unique_ptr<Screen>> m_Screens;
 	//LevelManager m_LevelManager;
 protected:
-	string m_CurrentScreen = "Select";
+	std::string m_CurrentScreen = "Select";
 public:
 	BitmapStore m_BS;
 	
@@ -25,18 +23,14 @@ public:
 	void update(float fps);
 	void draw(sf::RenderWindow& window);
 	void handleInput(sf::RenderWindow& window);
-	/****************************************************
-	*****************************************************
-	From ScreenManagerRemoteControl interface
-	*****************************************************
-*****************************************************/
-	void ScreenManagerRemoteControl::SwitchScreens(string screenToSwitchTo)
+
+	void ScreenManagerRemoteControl::SwitchScreens(std::string screenToSwitchTo)
 	{
 		m_CurrentScreen = "" + screenToSwitchTo;
 		m_Screens[m_CurrentScreen]->initialise();
 	}
 
-	void ScreenManagerRemoteControl::loadLevelInPlayMode(string screenToLoad)
+	void ScreenManagerRemoteControl::loadLevelInPlayMode(std::string screenToLoad)
 	{
 		//m_LevelManager.getGameObjects().clear();
 		//m_LevelManager.
