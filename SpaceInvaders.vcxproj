@@ -175,6 +175,7 @@
   <ItemGroup>
     <ClInclude Include="BitmapStore.h" />
     <ClInclude Include="BlueprintObjectParser.h" />
+    <ClInclude Include="BulletSpawner.h" />
     <ClInclude Include="BulletUpdateComponent.h" />
     <ClInclude Include="Button.h" />
     <ClInclude Include="ColliderComponent.h" />

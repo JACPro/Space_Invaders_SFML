@@ -8,7 +8,7 @@ class GameScreen : public Screen
 {
 private:
 	ScreenManagerRemoteControl* m_ScreenManagerRemoteControl;
-	shared_ptr<GameInputHandler> m_GIH;
+	std::shared_ptr<GameInputHandler> m_GIH;
 	sf::Texture m_BackgroundTexture;
 	sf::Sprite m_BackgroundSprite;
 
